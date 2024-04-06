@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:groupchar_flutter/pages/signin.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const MyHomePage('Moda Chanuka'),
+      home: Signin()
     );
   }
 }
